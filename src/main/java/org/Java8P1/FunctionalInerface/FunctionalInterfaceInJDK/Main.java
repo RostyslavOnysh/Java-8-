@@ -1,6 +1,9 @@
 package org.Java8P1.FunctionalInerface.FunctionalInterfaceInJDK;
 
 import org.Java8P1.FunctionalInerface.FunctionalInterfaceInJDK.Function.StudentsGradeFunction;
+import org.Java8P1.FunctionalInerface.FunctionalInterfaceInJDK.Supplier.Supplier;
+
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +19,8 @@ public class Main {
         StudentsGradeFunction studentsGradeFunction = new StudentsGradeFunction();
         String result = studentsGradeFunction.apply(98);
         System.out.println(result);
+
+        Supplier<Integer> randomGenerator = () -> new Random().nextInt();
+        System.out.println(randomGenerator.get());
     }
 }

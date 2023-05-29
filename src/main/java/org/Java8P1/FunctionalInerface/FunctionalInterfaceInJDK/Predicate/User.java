@@ -1,23 +1,22 @@
-package org.Java8P1.InnerClasses;
+package org.Java8P1.FunctionalInerface.FunctionalInterfaceInJDK.Predicate;
 
 import java.util.Objects;
 
 public class User {
-    private String Name;
-    private int age;
+    private String name;
+    private  int age;
 
-    public User(String name, int age) {
-        Name = name;
+    public User (String name, int age) {
+        this.name = name;
         this.age = age;
     }
 
-
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public int getAge() {
@@ -33,18 +32,18 @@ public class User {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         User user = (User) o;
-        return age == user.age && Objects.equals(Name, user.Name);
+        return age == user.age && Objects.equals(name, user.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(Name, age);
+        return Objects.hash(name, age);
     }
 
     @Override
     public String toString() {
         return "User{" +
-                "Name='" + Name + '\'' +
+                "name='" + name + '\'' +
                 ", age=" + age +
                 '}';
     }
