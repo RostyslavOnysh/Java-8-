@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Functional interface.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/TestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/Lambda/FirstExampleLambda/Lambda in Java 8.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/Lambda/FirstExampleLambda/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/Lambda/FirstExampleLambda/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/Lambda/FirstExampleLambda/TestImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/Lambda/FirstExampleLambda/TestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/Lambda/FirstExampleLambda/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +50,7 @@
     "last_opened_file_path": "C:/Users/rosps/IdeaProjects/Java8P1"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TestMain">
+  <component name="RunManager" selected="Application.org.Java8P1.FunctionalInerface.Main">
     <configuration name="CountryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Java8P1.InnerClasses.builder.CountryExample" />
       <module name="Java8P1" />
@@ -103,6 +90,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.Java8P1.FunctionalInerface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P1.FunctionalInerface.Main" />
+      <module name="Java8P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Java8P1.FunctionalInerface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.Java8P1.Lambda.FirstExampleLambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Java8P1.Lambda.FirstExampleLambda.Main" />
       <module name="Java8P1" />
@@ -118,6 +118,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.Java8P1.FunctionalInerface.Main" />
         <item itemvalue="Application.TestMain" />
         <item itemvalue="Application.org.Java8P1.Lambda.FirstExampleLambda.Main" />
         <item itemvalue="Application.Main" />

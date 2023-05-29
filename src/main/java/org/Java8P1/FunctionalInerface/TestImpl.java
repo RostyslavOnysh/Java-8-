@@ -5,9 +5,4 @@ public class TestImpl implements Test{
     public void print(String value) {
         System.out.println("Hello wrld");
     }
-
-    @Override
-    public void say(String value) {
-        System.out.println("say hello wrld");
-    }
 }
