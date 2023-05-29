@@ -13,7 +13,6 @@ public class ComparsionMain {
 
         ComparsionProvider comparsionProvider = new ComparsionProvider();
         Arrays.sort(people,comparsionProvider::compareByName);
-
         System.out.println(Arrays.toString(people));
 
     }
