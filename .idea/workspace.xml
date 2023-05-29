@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/ArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Default methods.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Eatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Walkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Iterable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/InnerClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/InnerClasses/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,16 +55,17 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/rosps/IdeaProjects/Java8P1"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="CountryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P1.InnerClasses.builder.CountryExample" />
+  <component name="RunManager" selected="Application.org.Java8P1.DefaultMethods.Feature.Main">
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P1.Lambda.FirstExampleLambda.TestMain" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P1.InnerClasses.builder.*" />
+          <option name="PATTERN" value="org.Java8P1.Lambda.FirstExampleLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +73,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P1.InnerClasses.Main" />
+    <configuration name="org.Java8P1.DefaultMethods.Feature.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P1.DefaultMethods.Feature.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P1.InnerClasses.*" />
+          <option name="PATTERN" value="org.Java8P1.DefaultMethods.Feature.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.Java8P1.DefaultMethods.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P1.DefaultMethods.Main" />
+      <module name="Java8P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Java8P1.DefaultMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.Java8P1.FunctionalInerface.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P1.FunctionalInerface.Main" />
+      <module name="Java8P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Java8P1.FunctionalInerface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.Java8P1.Lambda.FirstExampleLambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P1.Lambda.FirstExampleLambda.Main" />
+      <module name="Java8P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Java8P1.Lambda.FirstExampleLambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,8 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.CountryExample" />
+        <item itemvalue="Application.org.Java8P1.DefaultMethods.Feature.Main" />
+        <item itemvalue="Application.org.Java8P1.DefaultMethods.Main" />
+        <item itemvalue="Application.org.Java8P1.FunctionalInerface.Main" />
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.org.Java8P1.Lambda.FirstExampleLambda.Main" />
       </list>
     </recent_temporary>
   </component>
