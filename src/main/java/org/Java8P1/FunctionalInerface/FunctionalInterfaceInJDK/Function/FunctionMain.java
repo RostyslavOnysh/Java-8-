@@ -1,4 +1,4 @@
-package org.Java8P1.FunctionalInerface.FunctionalInterfaceInJDK.Function;
+package org.Java8P1.functionalInerface.functionalInterfaceInJDK.Function;
 
 public class FunctionMain {
 }
