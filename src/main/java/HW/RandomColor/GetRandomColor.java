@@ -1,7 +1,7 @@
 package HW.RandomColor;
 
 
-import org.Java8P1.FunctionalInerface.FunctionalInterfaceInJDK.Supplier.Supplier;
+import org.Java8P1.functionalInerface.functionalInterfaceInJDK.Supplier.Supplier;
 
 import java.util.Random;
 
