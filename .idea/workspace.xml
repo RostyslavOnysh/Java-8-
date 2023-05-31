@@ -4,61 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="#9 functional update info">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/AutoFindWeight/AutoType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/EngineElectro/CheckElectricEngine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/EngineElectro/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/EngineElectro/EngineType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/StreamInfo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/primitiveStream/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/streamApiIntro/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/streamApiIntro/User.java" afterDir="false" />
+    <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="#11 how to create Stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/db/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/service/AuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/service/AuthorServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW/RandomColor/EngineCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/EngineCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW/RandomColor/GetRandomColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/RandomColor/GetRandomColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HW/RandomColor/autoType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HW/AutoFindWeight/FindAutoType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/ArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/ArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Default methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/Default methods.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Eatable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/Feature/Eatable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/Feature/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/Feature/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Feature/Walkable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/Feature/Walkable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Iterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/Iterable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/DefaultMethods/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/defaultMethods/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Functional interface.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/Functional interface.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Function/Function.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Function/Function.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Function/FunctionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Function/FunctionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Function/StudentsGradeFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Function/StudentsGradeFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Function/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Function/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/FunctionalException/CheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/FunctionalException/CheckedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/FunctionalException/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/FunctionalException/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Predicate.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Predicate.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Predicate/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Predicate/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Predicate/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Predicate/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Predicate/UserPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Predicate/UserPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/FunctionalInterfaceInJDK/Supplier/Supplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/functionalInterfaceInJDK/Supplier/Supplier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/TestImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/TestImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/FunctionalInerface/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/functionalInerface/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/InnerClasses/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/innerClasses/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/InnerClasses/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/innerClasses/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/InnerClasses/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/innerClasses/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/InnerClasses/builder/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/innerClasses/builder/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/InnerClasses/builder/CountryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/innerClasses/builder/CountryExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/Part2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/part2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/Part2/NumberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/part2/NumberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/Part2/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/part2/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/Part2/comparsion/ComparsionMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/part2/comparsion/ComparsionMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/Part2/comparsion/ComparsionProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/part2/comparsion/ComparsionProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/Java8P1/MethodReference/What is method ref.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/Java8P1/methodReference/What is method ref.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -104,13 +58,13 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Study&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.Java8P2.streamApiIntro.Main">
+  <component name="RunManager" selected="Application.org.Java8P2.MapAsAStreamSource.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P1.methodReference.part2.Main" />
+      <option name="MAIN_CLASS_NAME" value="org.Java8P2.mapVSflatmap.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P1.methodReference.part2.*" />
+          <option name="PATTERN" value="org.Java8P2.mapVSflatmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P1.methodReference.TestMain" />
+    <configuration name="org.Java8P2.MapAsAStreamSource.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P2.MapAsAStreamSource.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P1.methodReference.*" />
+          <option name="PATTERN" value="org.Java8P2.MapAsAStreamSource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P1.functionalInerface.functionalInterfaceInJDK.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P1.functionalInerface.functionalInterfaceInJDK.Main" />
+    <configuration name="org.Java8P2.howToCreateStream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P2.howToCreateStream.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P1.functionalInerface.functionalInterfaceInJDK.*" />
+          <option name="PATTERN" value="org.Java8P2.howToCreateStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P1.functionalInerface.functionalInterfaceInJDK.Predicate.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P1.functionalInerface.functionalInterfaceInJDK.Predicate.Main" />
+    <configuration name="org.Java8P2.howToUseStream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P2.howToUseStream.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P1.functionalInerface.functionalInterfaceInJDK.Supplier.*" />
+          <option name="PATTERN" value="org.Java8P2.howToUseStream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.Java8P2.streamApiIntro.Main" />
-        <item itemvalue="Application.org.Java8P1.functionalInerface.functionalInterfaceInJDK.Main" />
-        <item itemvalue="Application.org.Java8P1.functionalInerface.functionalInterfaceInJDK.Predicate.Main" />
+        <item itemvalue="Application.org.Java8P2.MapAsAStreamSource.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.Java8P1.MethodReference.TestMain" />
+        <item itemvalue="Application.org.Java8P2.howToUseStream.Main" />
+        <item itemvalue="Application.org.Java8P2.howToCreateStream.Main" />
+        <item itemvalue="Application.org.Java8P2.streamApiIntro.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +185,56 @@
       <option name="project" value="LOCAL" />
       <updated>1685379843162</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="#10 renamed">
+      <created>1685473603295</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685473603295</updated>
+    </task>
+    <task id="LOCAL-00008" summary="#HW homeWork">
+      <created>1685473777933</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685473777933</updated>
+    </task>
+    <task id="LOCAL-00009" summary="#11 functional interface update">
+      <created>1685473826271</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685473826271</updated>
+    </task>
+    <task id="LOCAL-00010" summary="#12 Stream API in Java 8">
+      <created>1685473890960</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685473890960</updated>
+    </task>
+    <task id="LOCAL-00011" summary="#13 map vs flatmap with example">
+      <created>1685534476103</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1685534476103</updated>
+    </task>
+    <task id="LOCAL-00012" summary="#12 hpw to use Stream API">
+      <created>1685534504206</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1685534504206</updated>
+    </task>
+    <task id="LOCAL-00013" summary="#11 how to create Stream">
+      <created>1685534529164</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1685534529164</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,6 +245,13 @@
     <MESSAGE value="#8 provide function theme explanation" />
     <MESSAGE value="#7 Method ref and user inner class update" />
     <MESSAGE value="#9 functional update info" />
-    <option name="LAST_COMMIT_MESSAGE" value="#9 functional update info" />
+    <MESSAGE value="#10 renamed" />
+    <MESSAGE value="#HW homeWork" />
+    <MESSAGE value="#11 functional interface update" />
+    <MESSAGE value="#12 Stream API in Java 8" />
+    <MESSAGE value="#13 map vs flatmap with example" />
+    <MESSAGE value="#12 hpw to use Stream API" />
+    <MESSAGE value="#11 how to create Stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="#11 how to create Stream" />
   </component>
 </project>
