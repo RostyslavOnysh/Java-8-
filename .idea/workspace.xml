@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="#11 how to create Stream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/BoxedAndMapToObj/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW/StreamApiP1/StreamApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/findFirstFindAny/findfirst/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Study&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.Java8P2.BoxedAndMapToObj.Main">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Java8P2.mapVSflatmap.Main" />
       <module name="Java8P1" />
@@ -105,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P2.howToUseStream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.howToUseStream.Main" />
+    <configuration name="org.Java8P2.findFirstFindAny.findfirst.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P2.findFirstFindAny.findfirst.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P2.howToUseStream.*" />
+          <option name="PATTERN" value="org.Java8P2.findFirstFindAny.findfirst.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.org.Java8P2.findFirstFindAny.findfirst.Main" />
         <item itemvalue="Application.org.Java8P2.BoxedAndMapToObj.Main" />
         <item itemvalue="Application.org.Java8P2.collectToMap.Main" />
         <item itemvalue="Application.org.Java8P2.MapAsAStreamSource.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.Java8P2.howToUseStream.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -247,5 +248,16 @@
     <MESSAGE value="#12 hpw to use Stream API" />
     <MESSAGE value="#11 how to create Stream" />
     <option name="LAST_COMMIT_MESSAGE" value="#11 how to create Stream" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/Java8P2/mapVSflatmap/service/TruckServiceImpl.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
