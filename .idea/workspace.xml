@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="#11 how to create Stream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/db/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/model/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/service/AuthorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/MapAsAStreamSource/service/AuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/BoxedAndMapToObj/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,13 +52,26 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Study&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.org.Java8P2.MapAsAStreamSource.Main">
+  <component name="RunManager" selected="Application.org.Java8P2.BoxedAndMapToObj.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.Java8P2.mapVSflatmap.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.Java8P2.mapVSflatmap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.Java8P2.BoxedAndMapToObj.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P2.BoxedAndMapToObj.Main" />
+      <module name="Java8P1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.Java8P2.BoxedAndMapToObj.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P2.howToCreateStream.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.howToCreateStream.Main" />
+    <configuration name="org.Java8P2.collectToMap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.Java8P2.collectToMap.Main" />
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P2.howToCreateStream.*" />
+          <option name="PATTERN" value="org.Java8P2.collectToMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P2.streamApiIntro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.streamApiIntro.Main" />
-      <module name="Java8P1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.Java8P2.streamApiIntro.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.Java8P2.BoxedAndMapToObj.Main" />
+        <item itemvalue="Application.org.Java8P2.collectToMap.Main" />
         <item itemvalue="Application.org.Java8P2.MapAsAStreamSource.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.org.Java8P2.howToUseStream.Main" />
-        <item itemvalue="Application.org.Java8P2.howToCreateStream.Main" />
-        <item itemvalue="Application.org.Java8P2.streamApiIntro.Main" />
       </list>
     </recent_temporary>
   </component>
