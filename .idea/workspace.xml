@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="#11 how to create Stream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/StreamApiP1/StreamApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/Java8P2/findFirstFindAny/findfirst/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HW/streamApiP2/StreamApiMedium.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
