@@ -1,6 +1,4 @@
-package org.Java8P3.optional.howToUse;
-
-import org.Java8P3.optional.User;
+package org.Java8P3.optional;
 
 import java.util.function.Consumer;
 
