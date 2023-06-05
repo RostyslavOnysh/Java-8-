@@ -4,9 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="#11 how to create Stream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HW/streamApiP2/StreamApiMedium.java" afterDir="false" />
+    <list default="true" id="1911a84e-6399-4c05-9d89-df5727f195ff" name="Changes" comment="#60 hw">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practice/FilterAndModifyLetters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practice/SortNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practice/UniqueNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practice/UppercaseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practice/secondTask/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Practice/secondTask/CarModels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practice/UniqueNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practice/UppercaseStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Practice/secondTask/CarModelsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -49,82 +59,110 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Study&quot;
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rosps/IdeaProjects/Java8P1&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.mapVSflatmap.Main" />
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rosps\IdeaProjects\Java8P1\src\main\java\org\Java8P3\optional\dateTimeAPI" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Practice" />
+      <recent name="Practice.secondTask" />
+      <recent name="org.Java8P3.optional.HW" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.UppercaseStringTest.getUppercaseString_forStringsInArray">
+    <configuration name="CarModelsTest.getCarModels_oneCarAfterYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P2.mapVSflatmap.*" />
+          <option name="PATTERN" value="Practice.secondTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practice.secondTask" />
+      <option name="MAIN_CLASS_NAME" value="Practice.secondTask.CarModelsTest" />
+      <option name="METHOD_NAME" value="getCarModels_oneCarAfterYear" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P2.BoxedAndMapToObj.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.BoxedAndMapToObj.Main" />
+    <configuration name="CarModelsTest.getCarModels_twoCarsAfterYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P2.BoxedAndMapToObj.*" />
+          <option name="PATTERN" value="Practice.secondTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practice.secondTask" />
+      <option name="MAIN_CLASS_NAME" value="Practice.secondTask.CarModelsTest" />
+      <option name="METHOD_NAME" value="getCarModels_twoCarsAfterYear" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P2.MapAsAStreamSource.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.MapAsAStreamSource.Main" />
+    <configuration name="UniqueNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P2.MapAsAStreamSource.*" />
+          <option name="PATTERN" value="Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practice" />
+      <option name="MAIN_CLASS_NAME" value="Practice.UniqueNumbersTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P2.collectToMap.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.collectToMap.Main" />
+    <configuration name="UppercaseStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P2.collectToMap.*" />
+          <option name="PATTERN" value="Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practice" />
+      <option name="MAIN_CLASS_NAME" value="Practice.UppercaseStringTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.Java8P2.findFirstFindAny.findfirst.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.Java8P2.findFirstFindAny.findfirst.Main" />
+    <configuration name="UppercaseStringTest.getUppercaseString_forStringsInArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java8P1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.Java8P2.findFirstFindAny.findfirst.*" />
+          <option name="PATTERN" value="Practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Practice" />
+      <option name="MAIN_CLASS_NAME" value="Practice.UppercaseStringTest" />
+      <option name="METHOD_NAME" value="getUppercaseString_forStringsInArray" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.org.Java8P2.findFirstFindAny.findfirst.Main" />
-        <item itemvalue="Application.org.Java8P2.BoxedAndMapToObj.Main" />
-        <item itemvalue="Application.org.Java8P2.collectToMap.Main" />
-        <item itemvalue="Application.org.Java8P2.MapAsAStreamSource.Main" />
+        <item itemvalue="JUnit.UppercaseStringTest.getUppercaseString_forStringsInArray" />
+        <item itemvalue="JUnit.UppercaseStringTest" />
+        <item itemvalue="JUnit.UniqueNumbersTest" />
+        <item itemvalue="JUnit.CarModelsTest.getCarModels_oneCarAfterYear" />
+        <item itemvalue="JUnit.CarModelsTest.getCarModels_twoCarsAfterYear" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +266,56 @@
       <option name="project" value="LOCAL" />
       <updated>1685534529164</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="#67 створивши класс Wrapper ми створили свій власний приклад Optional. З деякими його методами.Нам не потрібно цього робити тому що модемо використовувати вже готовий класс Optional">
+      <created>1685794849158</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1685794849158</updated>
+    </task>
+    <task id="LOCAL-00015" summary=" #45 Stream api theme">
+      <created>1685794887194</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1685794887194</updated>
+    </task>
+    <task id="LOCAL-00016" summary=" #60 Start Optional theme">
+      <created>1685794909943</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1685794909943</updated>
+    </task>
+    <task id="LOCAL-00017" summary=" #61 How to use optional">
+      <created>1685795833435</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685795833435</updated>
+    </task>
+    <task id="LOCAL-00018" summary=" #60 example">
+      <created>1685795846203</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1685795846203</updated>
+    </task>
+    <task id="LOCAL-00019" summary=" #60 example">
+      <created>1685797731772</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1685797731772</updated>
+    </task>
+    <task id="LOCAL-00020" summary="#60 hw">
+      <created>1685873029175</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1685873029175</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -246,7 +333,13 @@
     <MESSAGE value="#13 map vs flatmap with example" />
     <MESSAGE value="#12 hpw to use Stream API" />
     <MESSAGE value="#11 how to create Stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="#11 how to create Stream" />
+    <MESSAGE value="#67 створивши класс Wrapper ми створили свій власний приклад Optional. З деякими його методами.Нам не потрібно цього робити тому що модемо використовувати вже готовий класс Optional" />
+    <MESSAGE value=" #45 Stream api theme" />
+    <MESSAGE value=" #60 Start Optional theme" />
+    <MESSAGE value=" #61 How to use optional" />
+    <MESSAGE value=" #60 example" />
+    <MESSAGE value="#60 hw" />
+    <option name="LAST_COMMIT_MESSAGE" value="#60 hw" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
